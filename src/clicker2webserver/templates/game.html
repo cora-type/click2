@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clicker 2</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+</head>
+<body onload="initializeGame('{{username}}');">
+
+<button id="gold" onclick="clickGold();">GOLD!</button>
+
+<div id="equipmentButtons"></div>
+
+<div id="displayGold"></div>
+
+<script src="game.js"></script>
+
+</body>
+</html>
